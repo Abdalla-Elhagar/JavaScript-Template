@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css links -->
+    <link rel="stylesheet" href="css/main-stayle.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- fonts links  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,700&display=swap" rel="stylesheet">
+    <title>JS Template</title>
+</head>
+<body>
+    <div class="setting-box">
+        <div class="setting-icon"><i class="fa fa-gear"></i></div>
+        <div class="setting-container">
+            <div class="colors">
+                <h2>Colors</h2>
+                <ul>
+                    <li class="active" data-color="rgb(251, 140, 4)"></li>
+                    <li data-color="rgb(1, 201, 198)"></li>
+                    <li data-color="rgb(210, 15, 190)"></li>
+                    <li data-color="rgb(4, 132, 251)"></li>
+                    <li data-color="rgb(235, 83, 2)"></li>
+                </ul>
+            </div>
+            <div class="random-background">
+                <h2>Random</h2>
+                <div>
+                    <span data-background="on" class="on active" >on</span>
+                    <span data-background="off" class="off">off</span>
+                </div>
+            </div>
+            <div class="pulletHiding">
+                <h2>Bullets</h2>
+                <div>
+                    <span data-bullets="on" class="on active">on</span>
+                    <span data-bullets="off" class="off">off</span>
+                </div>
+            </div>
+
+            <div class="reset">
+                <button type="reset">reset</button>
+            </div>
+
+        </div>
+    </div>
+    <div class="navBullets">
+        <div class="Bullet" data-section=".about-us"></div>
+        <div class="Bullet" data-section=".our-skills"></div>
+        <div class="Bullet" data-section=".gallery"></div>
+        <div class="Bullet" data-section=".timeline"></div>
+        <div class="Bullet" data-section=".our-features"></div>
+        <div class="Bullet" data-section=".testmonials"></div>
+        <div class="Bullet" data-section=".contactUs"></div>
+    </div>
+    <div class="landing-page">
+        <div class="overlay"></div>
+        <div class="header-section">
+            <div class="logo"><span>JS</span> Template</div>
+            <i class="fa-solid fa-bars"></i>
+            <ul class="links">
+                <li data-section=".home">Home</li>
+                <li data-section=".about-us">About</li>
+                <li data-section=".our-skills">Skills</li>
+                <li data-section=".gallery">Gallery</li>
+                <li data-section=".timeline">Timeline</li>
+                <li data-section=".our-features">Features</li>
+                <li data-section=".testmonials">Testmonials</li>
+        </div>
+        <div class="text">
+            <h2>We Are <span>Creative</span> Agency</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, consectetur, consectetur, adipisicing elit. Illo, nostrum! Nemo, hic?</p>
+        </div>
+    </div>
+    <div class="about-us">
+        <div class="text">
+            <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti sequi quod harum. Obcaecati, a asperiores! Dicta quia rerum ipsa asperiores, optio laboriosam debitis. Optio dolorum veritatis itaque ullam reprehenderit tempora?</p>
+        </div>
+        <img src="images/about-us/02.png">
+    </div>
+    <div class="our-skills">
+        <h2>Our Skills</h2>
+        <div class="programming-languages">
+            <div class="pro-lang">
+                <div class="name">HTML</div>
+                <div class="percentage"><span data-progress="90%"></span></div>
+            </div>
+            <div class="pro-lang">
+                <div class="name">CSS</div>
+                <div class="percentage"><span data-progress="95%"></span></div>
+            </div>
+            <div class="pro-lang">
+                <div class="name">Java Script</div>
+                <div class="percentage"><span data-progress="85%"></span></div>
+            </div>
+            <div class="pro-lang">
+                <div class="name">Boot Strap</div>
+                <div class="percentage"><span data-progress="90%"></span></div>
+            </div>
+            <div class="pro-lang">
+                <div class="name">SASS</div>
+                <div class="percentage"><span data-progress="75%"></span></div>
+            </div>
+            <div class="pro-lang">
+                <div class="name">React</div>
+                <div class="percentage"><span data-progress="77%"></span></div>
+            </div>
+        </div>
+    </div>
+    <div class="gallery">
+        <h2>Gallery</h2>
+        <div class="images">
+            <img src="images/gallery/01.jpg">
+            <img src="images/gallery/02.jpg">
+            <img src="images/gallery/03.jpg">
+            <img src="images/gallery/04.jpg">
+            <img src="images/gallery/05.jpg">
+            <img src="images/gallery/06.jpg">
+            <img src="images/gallery/07.jpg">
+            <img src="images/gallery/08.jpg">
+            <img src="images/gallery/09.jpg">
+            <img src="images/gallery/10.jpg">
+        </div>
+    </div>
+    <div class="timeline">
+        <div class="container">
+            <div class="timeline-content">
+
+                <div class="year">2021</div>
+    
+                <div class="left">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit alias labore laborum consequuntur deserunt veniam quia, architecto, in recusandae sint, maiores eos reiciendis similique! Accusantium inventore omnis commodi debitis doloribus.</p>
+                    </div>
+                </div>
+                <div class="clear-fix"></div>
+                <div class="right">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit alias labore laborum consequuntur deserunt veniam quia, architecto, in recusandae sint, maiores eos reiciendis similique! Accusantium inventore omnis commodi debitis doloribus.</p>
+                    </div>
+                </div>
+                <div class="year">2022</div>
+    
+                <div class="left">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit alias labore laborum consequuntur deserunt veniam quia, architecto, in recusandae sint, maiores eos reiciendis similique! Accusantium inventore omnis commodi debitis doloribus.</p>
+                    </div>
+                </div>
+                <div class="clear-fix"></div>
+                <div class="right">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit alias labore laborum consequuntur deserunt veniam quia, architecto, in recusandae sint, maiores eos reiciendis similique! Accusantium inventore omnis commodi debitis doloribus.</p>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+    <div class="our-features">
+        <div class="container">
+            <h2>Our Features</h2>
+            <div class="content">
+                <div class="box">
+                    <img src="images/features/01.png">
+                    <h3>Development</h3>
+                    <span></span>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At repudiandae consectetur</p>
+                </div>
+                <div class="box">
+                    <img src="images/features/02.png">
+                    <h3>Development</h3>
+                    <span></span>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At repudiandae consectetur</p>
+                </div>
+                <div class="box">
+                    <img src="images/features/03.png">
+                    <h3>Development</h3>
+                    <span></span>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At repudiandae consectetur</p>
+                </div>
+                <div class="box">
+                    <img src="images/features/04.png">
+                    <h3>Development</h3>
+                    <span></span>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At repudiandae consectetur</p>
+                </div>
+                <div class="box">
+                    <img src="images/features/05.png">
+                    <h3>Development</h3>
+                    <span></span>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At repudiandae consectetur</p>
+                </div>
+                <div class="box">
+                    <img src="images/features/06.png">
+                    <h3>Development</h3>
+                    <span></span>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At repudiandae consectetur</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="testmonials">
+        <div class="container">
+            <h2>Testmonials</h2>
+            <div class="content">
+                <div class="box">
+                    <div class="top"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae sint laudantium error provident eius nam illo quisquam</p></div>
+                    <div class="bottom">
+                        <div class="image"><p>80 x 80</p></div>
+                        <div class="text">
+                            <h3>Name</h3>
+                            <p>CEO At Company</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="top"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae sint laudantium error provident eius nam illo quisquam</p></div>
+                    <div class="bottom">
+                        <div class="image"><p>80 x 80</p></div>
+                        <div class="text">
+                            <h3>Name</h3>
+                            <p>CEO At Company</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="top"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae sint laudantium error provident eius nam illo quisquam</p></div>
+                    <div class="bottom">
+                        <div class="image"><p>80 x 80</p></div>
+                        <div class="text">
+                            <h3>Name</h3>
+                            <p>CEO At Company</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contactUs">
+        <div class="overlay"></div>
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="content">
+                    <div class="left">
+                        <input type="text" placeholder="Your Name" name="userName">
+                        <input type="number" placeholder="Your Phone" name="phone">
+                        <input type="email" placeholder="Your Email" name="">
+                        <input type="text" placeholder="Subject" name="subject">
+                    </div>
+                    <div class="right">
+                        <textarea name="message" placeholder="Your Email"></textarea>
+                        <button type="submit">Send</button>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <footer><p>Create By Abdalla Elhgar</p></footer>
+    <script src="JS/main-script.js"></script>
+</body>
+</html>
